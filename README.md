@@ -33,6 +33,27 @@ cd src
 make clean
 make PROBE_HOST=stlink
 ```
+Unlock the memory before the programmer is flashed
+```
+openocd -f interface/stlink-v2.cfg -f target/stm32f1x.cfg \
+        -c "init; reset halt; stm32f1x unlock 0; reset halt; exit"
+```
+
+Erase the flash memory
+```
+st-flash erase
+```
+
+Update actual Black Magic Probe:
+```
+st-flash write blackmagic.bin 0x8000000
+```
+
+Write Firmware
+```
+st-flash --reset write blackmagic.bin 0x8002000
+```
+
 
 
 
