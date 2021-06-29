@@ -1,7 +1,11 @@
 # RP2040
 ### Repo for all things RP2040.
 
+
 [Get Started Guide](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf) | [Libraries & tools](https://datasheets.raspberrypi.org/pico/raspberry-pi-pico-c-sdk.pdf) | [Datasheet](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
+
+![image](https://user-images.githubusercontent.com/38166489/123840407-e8f31d00-d92b-11eb-87f4-c98c21de717d.png)
+
 
 <h3>
   Settings things up:
