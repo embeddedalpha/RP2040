@@ -53,7 +53,3 @@ Write Firmware
 ```
 st-flash --reset write blackmagic.bin 0x8002000
 ```
-
-
-
-
